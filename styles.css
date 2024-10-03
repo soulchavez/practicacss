@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: #EFE4CE;
+    color: #021B2E;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h1{
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+nav{
+    background-color: #021B2E;
+    color: #F9F9EF;
+    width: 90%;
+    margin: auto;
+    max-width: 1800px;
+    padding: 0.9rem 2rem;
+    display: flex;
+    border-radius: 3rem 3rem;
+
+}
+
+.logo{
+    font-family: "Playfair Display";
+    font-weight: 800;
+}
+
+nav>a{
+    color: #12BA9C;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav>ul a{
+    color: #F9F9EF;
+    text-decoration: none;
+}
+
+header{
+    width: 95%;
+    margin: auto;
+    max-width: 1800px;
+}
+
+header div{
+    width: 40%;
+}
+
+header img{
+    width: 60%;
+    position: fixed;
+}
+
+header a{
+    color: #021B2E;
+}
+
+.orange{
+    background-color: #FF5710;
+    color: #EFE4CE;
+}
+
+.teal{
+    background-color: #12BA9C;
+    color: #EFE4CE;
+}
+
+.button{
+   padding: 0.9rem 1.5rem; 
+   text-decoration: none;
+   border-radius: 1.5rem 1.5rem;
+}
